@@ -31,7 +31,7 @@ SECRET_KEY = "django-insecure-00&)vroppt&jdi=1)b7#0s3jwqx0*m59lth0p*s@+k!7788+um
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["django-noteapp.onrender.com", "localhost", "127.0.0.1"]
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
