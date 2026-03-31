@@ -40,7 +40,7 @@ noteapp/
 
 ## Environment Variables
 
-Create local `.env` files for the backend and frontend. Do not commit real secrets.
+Create local `.env` files for the backend and frontend. Keep real secrets out of Git and use only local or deployment-managed environment variables.
 
 ### Backend: `backend/.env`
 
@@ -134,6 +134,6 @@ npm run preview
 npm run lint
 ```
 
-## Important Security Note
+## Security Note
 
-The current repo contains populated `.env` files. Those should be treated as compromised if they were committed or shared publicly. Rotate real credentials and replace committed secrets with local-only environment files or a secrets manager before deploying further.
+This README intentionally uses placeholder environment variable values only. Keep `.env` files and virtual environment folders such as `env/` or `venv/` out of version control.
