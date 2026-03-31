@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react"
 import api from "../api"
-import { ACCESS_TOKEN } from "../constants"
 import Note from "../components/note";
+import "../styles/Home.css"
+
 function Home() {
     const [notes, setNotes] = useState([]);
     const [content, setContent] = useState("");
